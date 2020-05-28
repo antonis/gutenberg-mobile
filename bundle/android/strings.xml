@@ -41,6 +41,7 @@
     <!-- translators: %s: current cell value. -->
     <string name="gutenberg_native_current_value_is_s" tools:ignore="UnusedResources">Current value is %s</string>
     <string name="gutenberg_native_customize" tools:ignore="UnusedResources">CUSTOMIZE</string>
+    <string name="gutenberg_native_dismiss" tools:ignore="UnusedResources">Dismiss</string>
     <!-- translators: sample content for "About" page template -->
     <string name="gutenberg_native_don_t_cry_because_it_s_over_smile_because_it_happened" tools:ignore="UnusedResources">Don’t cry because it’s over, smile because it happened.</string>
     <string name="gutenberg_native_double_tap_and_hold_to_edit" tools:ignore="UnusedResources">Double tap and hold to edit</string>
@@ -67,6 +68,7 @@
     <string name="gutenberg_native_double_tap_to_undo_last_change" tools:ignore="UnusedResources">Double tap to undo last change</string>
     <!-- translators: sample content for "About" page template -->
     <string name="gutenberg_native_dr_seuss" tools:ignore="UnusedResources">Dr. Seuss</string>
+    <string name="gutenberg_native_edit_block_in_web_browser" tools:ignore="UnusedResources">Edit block in web browser</string>
     <string name="gutenberg_native_edit_media" tools:ignore="UnusedResources">Edit media</string>
     <string name="gutenberg_native_edit_video" tools:ignore="UnusedResources">Edit video</string>
     <!-- translators: sample content for "Team" page template -->
@@ -77,12 +79,10 @@
     <string name="gutenberg_native_gallery_caption_s" tools:ignore="UnusedResources">Gallery caption. %s</string>
     <!-- translators: sample content for "About" page template
 translators: sample content for "Contact" page template
-translators: sample content for "Services" page template -->
+translators: sample content for "Portfolio" page template
+translators: sample content for "Services" page template
+translators: sample content for "Team" page template -->
     <string name="gutenberg_native_get_in_touch" tools:ignore="UnusedResources">Get in Touch</string>
-    <!-- translators: sample content for "Portfolio" page template -->
-    <string name="gutenberg_native_get_in_touch_c53e1927" tools:ignore="UnusedResources">Get in touch!</string>
-    <!-- translators: sample content for "Team" page template -->
-    <string name="gutenberg_native_get_in_touch_dbfe07f2" tools:ignore="UnusedResources">Get in Touch!</string>
     <string name="gutenberg_native_help_icon" tools:ignore="UnusedResources">Help icon</string>
     <string name="gutenberg_native_here_is_the_panel_content" tools:ignore="UnusedResources">Here is the panel content!</string>
     <string name="gutenberg_native_hide_keyboard" tools:ignore="UnusedResources">Hide keyboard</string>
@@ -97,12 +97,11 @@ translators: sample content for "Services" page template -->
     <string name="gutenberg_native_j_k_rowling" tools:ignore="UnusedResources">J.K. Rowling</string>
     <!-- translators: sample content for "Team" page template -->
     <string name="gutenberg_native_juan_p_rez" tools:ignore="UnusedResources">Juan Pérez</string>
-    <!-- translators: sample content for "About" page template -->
-    <string name="gutenberg_native_let_s_build_something_together" tools:ignore="UnusedResources">Let’s build something together</string>
-    <!-- translators: sample content for "Services" page template -->
-    <string name="gutenberg_native_let_s_build_something_together_93c12eb5" tools:ignore="UnusedResources">Let’s Build Something Together</string>
+    <!-- translators: sample content for "About" page template
+translators: sample content for "Services" page template -->
+    <string name="gutenberg_native_let_s_build_something_together" tools:ignore="UnusedResources">Let’s build something together!</string>
     <!-- translators: sample content for "Portfolio" page template -->
-    <string name="gutenberg_native_let_s_build_something_together_e349ef7a" tools:ignore="UnusedResources">Let\'s build something together.</string>
+    <string name="gutenberg_native_let_s_build_something_together_7019bfe3" tools:ignore="UnusedResources">Let\'s build something together!</string>
     <!-- translators: sample content for "Contact" page template -->
     <string name="gutenberg_native_let_s_talk_don_t_hesitate_to_reach_out_with_the_contact_informati" tools:ignore="UnusedResources">Let\'s talk 👋 Don\'t hesitate to reach out with the contact information below, or send a message using the form.</string>
     <string name="gutenberg_native_link_inserted" tools:ignore="UnusedResources">Link inserted</string>
@@ -199,6 +198,7 @@ translators: sample content for "Services" page template -->
     <string name="gutenberg_native_this_is_sample_content_included_with_the_template_to_illustrate_i" tools:ignore="UnusedResources">This is sample content, included with the template to illustrate its features. Remove or replace it with your own words and media.</string>
     <string name="gutenberg_native_title" tools:ignore="UnusedResources">Title:</string>
     <string name="gutenberg_native_translate" tools:ignore="UnusedResources">Translate</string>
+    <string name="gutenberg_native_try_a_starter_layout" tools:ignore="UnusedResources">Try a starter layout</string>
     <string name="gutenberg_native_ungroup" tools:ignore="UnusedResources">Ungroup</string>
     <!-- translators: sample content for "Contact" page template -->
     <string name="gutenberg_native_usa" tools:ignore="UnusedResources">USA</string>
@@ -213,7 +213,7 @@ translators: sample content for "Services" page template -->
     <string name="gutenberg_native_warning_message" tools:ignore="UnusedResources">Warning Message</string>
     <!-- translators: sample content for "Team" page template -->
     <string name="gutenberg_native_we_are_a_small_team_of_talented_professionals_with_a_wide_range_o" tools:ignore="UnusedResources">We are a small team of talented professionals with a wide range of skills and experience. We love what we do, and we do it with passion. We look forward to working with you.</string>
-    <string name="gutenberg_native_we_are_working_hard_to_add_more_blocks_with_each_release_in_the_m" tools:ignore="UnusedResources">We are working hard to add more blocks with each release. In the meantime, you can also edit this post on the web.</string>
+    <string name="gutenberg_native_we_are_working_hard_to_add_more_blocks_with_each_release_in_the_m" tools:ignore="UnusedResources">We are working hard to add more blocks with each release. In the meantime, you can also edit this block using your device\'s web browser.</string>
     <!-- translators: sample content for "Services" page template -->
     <string name="gutenberg_native_we_offer_a_range_of_services_to_help_you_achieve_the_results_you" tools:ignore="UnusedResources">We offer a range of services to help you achieve the results you\'re after. Not sure what you need, or what it costs? We can explain what services are right for you and tell you more about our fees. Get in touch below.</string>
     <!-- translators: sample content for "Blog" page template -->
