@@ -16,6 +16,9 @@ RCT_EXPORT_VIEW_PROPERTY(activeFormats, NSSet)
 RCT_EXPORT_VIEW_PROPERTY(onActiveFormatsChange, RCTBubblingEventBlock)
 RCT_EXPORT_VIEW_PROPERTY(onActiveFormatAttributesChange, RCTBubblingEventBlock)
 
+RCT_EXPORT_VIEW_PROPERTY(accessibilityLabel, NSString)
+RCT_EXPORT_VIEW_PROPERTY(accessibilityHint, NSString)
+
 RCT_EXPORT_VIEW_PROPERTY(placeholder, NSString)
 RCT_EXPORT_VIEW_PROPERTY(placeholderTextColor, UIColor)
 RCT_REMAP_VIEW_PROPERTY(color, textColor, UIColor)
