@@ -1,6 +1,7 @@
 1.30.0
 ------
 * [**] Adds editor support for theme defined colors and theme defined gradients on cover and button blocks.
+* [*] Accessibility Update the Post title label to be more clear when you are editing the Post or Page title.  
 
 1.29.1
 ------
