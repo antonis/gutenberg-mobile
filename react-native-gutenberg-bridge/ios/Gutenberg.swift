@@ -13,7 +13,10 @@ public class Gutenberg: NSObject {
     private var extraModules: [RCTBridgeModule];
 
     public lazy var rootView: UIView = {
-        return RCTRootView(bridge: bridge, moduleName: "gutenberg", initialProperties: initialProps)
+        let view = RCTRootView(bridge: bridge, moduleName: "gutenberg", initialProperties: initialProps)
+        view.loadingView = dataSource.loadingView
+        view.loadingViewFadeDelay = 0
+        return view
     }()
 
     public var delegate: GutenbergBridgeDelegate? {
