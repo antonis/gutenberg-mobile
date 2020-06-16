@@ -15,7 +15,6 @@ public class Gutenberg: NSObject {
     public lazy var rootView: UIView = {
         let view = RCTRootView(bridge: bridge, moduleName: "gutenberg", initialProperties: initialProps)
         view.loadingView = dataSource.loadingView
-        view.loadingViewFadeDelay = 0
         return view
     }()
 
